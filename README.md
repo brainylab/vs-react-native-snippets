@@ -49,7 +49,8 @@ Abaixo segue a lista com os Snippets disponíveis e os gatilhos para cada um. O 
 |                 Gatilho | Conteúdo                                                                      |
 | ----------------------: | ----------------------------------------------------------------------------- |
 |                `rnfce →` | Cria um Componente **Functional**   para React Native                                          |
-|           `rnfcie →` |Cria um Componente **Functional**   para React Native com Interface do Typescript                      |
+|           `rnfcie →` |Cria um Componente **Functional**   para React Native com **Types** do Typescript                      |
+|           `rnfciec →` |Cria um Componente **Functional**   para React Native com **Children** e **Types** do Typescript                     |
 
 <!-- LICENSE -->
 

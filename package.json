@@ -3,7 +3,7 @@
   "displayName": "BrainyLab React Native Snippets",
   "description": "React Native snippets created by BrainyLab.",
   "publisher": "brainylab",
-  "version": "0.0.3",
+  "version": "0.1.0",
   "license": "MIT",
   "icon": "images/brainylab-rn.png",
   "engines": {

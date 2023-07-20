@@ -5,7 +5,7 @@
       "import React from 'react';",
       "import { View } from 'react-native';",
       "",
-      "export function ${1}(){",
+      "export function ${1:$TM_FILENAME_BASE}(){",
       "  return <View />;",
       "}",
     ],
@@ -17,13 +17,29 @@
       "import React from 'react';",
       "import { View } from 'react-native';",
       "",
-      "interface ${1}Props {",
-      "}",
+      "interface ${1}Props { }",
       "",
-      "export function ${1}({}:${1}Props){",
+      "export function ${1:$TM_FILENAME_BASE}({}:${1}Props){",
       "  return <View />;",
       "}",
     ],
     "description": "Create React Native Functional Component With Interface"
-  }	
+  },
+  "functionalComponentTsxWithInterfaceAndChildren": {
+    "prefix": "rnfciec",
+    "body": [
+      "import React from 'react';",
+      "import type {ReactNode} from 'react';",
+      "import { View } from 'react-native';",
+      "",
+      "interface ${1}Props {",
+      " children: ReactNode;",
+      "}",
+      "",
+      "export function ${1:$TM_FILENAME_BASE}({children}:${1}Props){",
+      "  return <View>{children}</View>",
+      "}",
+    ],
+    "description": "Create React Native Functional Component With Interface And Children"
+  },
 }
