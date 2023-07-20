@@ -1,0 +1,26 @@
+{
+  "name": "brainylabreactnativesnippets",
+  "displayName": "BrainyLab React Native Snippets",
+  "description": "React Native snippets created by BrainyLab.",
+  "publisher": "brainylab",
+  "version": "0.0.2",
+  "license": "MIT",
+  "icon": "images/brainylab-rn.png",
+  "engines": {
+    "vscode": "^1.70.0"
+  },
+  "categories": [
+    "Snippets"
+  ],
+  "contributes": {
+    "snippets": [
+      {
+        "language": "typescriptreact",
+        "path": "./snippets/rn-snippets-tsx.code-snippets"
+      }
+    ]
+  },
+  "devDependencies": {
+    "@vscode/vsce": "^2.19.0"
+  }
+}

@@ -1,0 +1,29 @@
+{
+  "functionalComponentTsx": {
+    "prefix": "rnfce",
+    "body": [
+      "import React from 'react';",
+      "import { View } from 'react-native';",
+      "",
+      "export function ${1}(){",
+      "  return <View />;",
+      "}",
+    ],
+    "description": "Create React Native Functional Component"
+  },
+  "functionalComponentTsxWithInterface": {
+    "prefix": "rnfcie",
+    "body": [
+      "import React from 'react';",
+      "import { View } from 'react-native';",
+      "",
+      "interface ${1}Props {",
+      "}",
+      "",
+      "export function ${1}({}:${1}Props){",
+      "  return <View />;",
+      "}",
+    ],
+    "description": "Create React Native Functional Component With Interface"
+  }	
+}
