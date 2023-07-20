@@ -2,7 +2,7 @@
 <br />
 <p align="center">
   <a href="https://brainylab.com.br">
-    <img src="https://raw.githubusercontent.com/brainylab/vs-react-native-snippets/master/images/brainylab-rn.png" alt="Logo">
+    <img src="https://raw.githubusercontent.com/brainylab/vs-react-native-snippets/master/images/brainylab-logo.png" alt="Logo" height="50">
   </a>
 
   <h3 align="center">BrainyLab React Native Snippets</h3>
@@ -48,8 +48,8 @@ Abaixo segue a lista com os Snippets disponíveis e os gatilhos para cada um. O 
 
 |                 Gatilho | Conteúdo                                                                      |
 | ----------------------: | ----------------------------------------------------------------------------- |
-|                `rnfc →` | Cria um Componente **Functional**                                             |
-|           `styled-rn →` | Cria um arquivo de Estilização com **Styled Components**                      |
+|                `rnfce →` | Cria um Componente **Functional**   para React Native                                          |
+|           `rnfcie →` |Cria um Componente **Functional**   para React Native com Interface do Typescript                      |
 
 <!-- LICENSE -->
 
